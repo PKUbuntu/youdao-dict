@@ -1,2 +1,18 @@
 * Youdao Dict command line tools
 
+** pydict
+#+begin_src bash
+./pydict hello  
+#+end_src
+
+#+begin_example
+hello
+Translations from WordNet
+"Hello" is a song by American pop recording duo Karmin. The song is the second official single from their debut EP of the same name, Hello.
+Translations from yodao:
+Hello:	您好
+Hello Kitty:	凯蒂猫
+#+end_example
+
+** emdict
+Same with pydict, but without TERM color, which can be used in emacs.
